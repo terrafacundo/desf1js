@@ -1,0 +1,39 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navegador{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #8D8DAA;
+}
+
+.trackerAct{
+    background-color: #DFDFDE;
+}
+
+.bienvenida{
+    font-size: 1.5rem;
+}
+
+.marcadores{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    background-color:#F7F5F2;
+    border-style: solid 0.5px;
+    box-shadow: -3px 2px 5px gainsboro;
+    margin-bottom: 2vh;
+}
+
+.marcadores:hover{
+    transform:scale(1.1,1.1);
+    background-color:white;
+}
